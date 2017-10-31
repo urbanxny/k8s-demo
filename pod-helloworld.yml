@@ -6,7 +6,7 @@ metadata:
     app: helloworld
 spec:
   containers:
-    - name: k8s-demo
+  - name: k8s-demo
     images: bizandsec/k8s-demo
     ports:
-      - containerPort: 3000
+    - containerPort: 3000
